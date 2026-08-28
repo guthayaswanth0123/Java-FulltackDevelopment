@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Input {
     public static void main(String[] args) {
+        Sysetm.out.println("Hello World"); //println is method of printStream class out is object of printStream class and system si aparent class 
+
+
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         // sc.nextLine();
