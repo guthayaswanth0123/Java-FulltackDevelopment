@@ -1,0 +1,5 @@
+
+1. find max element in array if it is primitive ex: arr[] 
+   int high=Arrays.stream(arr).max().orElse(0)
+2. find max element in array if it is collections ex: ArrayList<Integer>
+   int high=Collections.max(arr) 
