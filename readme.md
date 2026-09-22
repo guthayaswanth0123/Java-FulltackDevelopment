@@ -1,3 +1,3 @@
-This is my Java Full Stcak Development Journey i am exploring
+This is my Java Full Stack Development Journey i am exploring
 
 
