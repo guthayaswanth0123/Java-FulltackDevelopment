@@ -1,94 +1,55 @@
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>My First Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <!-- Links to your separate CSS file -->
+    <link rel="stylesheet" href="F1.css">
 </head>
-
 <body>
 
-    <h1>Hello Yash</h1>
+<!--   
+    <button onclick="toggle()">Show Message</button>
+    <p id="msg">Welocme to Coding Assement</p> -->
 
-    <p>This is My First Day</p>
+    <!-- <input type="email" id="email" placeholder="Enter Your email"><br>
+    <input type="password" id="password" placeholder="Enter Your password"><br>
+    <button id="btn" onclick="login()">login</button>
 
-    <p>
-        Hi Hello Yash Welcome to<br>
-        Lovely Professional University
-    </p>
+    <p id="msg"></p> -->
+<form id="myForm">
 
-    <button>Click Me</button>
+    <label>Name:</label>
+    <input type="text" id="name">
+    <br><br>
 
-    <a href="https://www.google.com">Google</a>
+    <label>Email:</label>
+    <input type="text" id="email">
+    <br><br>
 
-    <div class="box">
-        <h2>Student Information</h2>
-        <p>Name: Yaswanth</p>
-        <p>Course: CSE</p>
-    </div>
+    <label>Password:</label>
+    <input type="password" id="password">
+    <br><br>
 
-    <form>
+    <label>Gender:</label>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name">
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
 
-        <br><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email">
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label>
 
-        <br><br>
+    <br><br>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter password">
+    <button type="submit" id="btn" onclick="button()">Submit</button>
 
-        <br><br>
+</form>
 
-        <label for="number">Age:</label>
-        <input type="number" id="number" name="number" placeholder="Enter your age">
-
-        <br><br>
-
-        <label for="date">Date of Birth:</label>
-        <input type="date" id="date" name="date">
-
-        <br><br>
-
-        <p>Gender:</p>
-
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-
-        <br><br>
-
-        <input type="checkbox" id="terms" name="terms">
-        <label for="terms">I agree to the terms and conditions</label>
-
-        <br><br>
-
-        <label for="country">Country:</label>
-
-        <select id="country" name="country">
-            <option value="india">India</option>
-            <option value="usa">USA</option>
-        </select>
-
-        <br><br>
-
-        <label for="message">Message:</label>
-        <br>
-
-        <textarea id="message" name="message" rows="5" cols="30"></textarea>
-
-        <br><br>
-
-        <button type="submit">Submit</button>
-
-    </form>
-
+    <!-- Links to your separate JavaScript file -->
+    <script src="F1.js"></script>
 </body>
 </html>
-
